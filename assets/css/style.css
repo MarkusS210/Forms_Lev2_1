@@ -1,23 +1,25 @@
 body{
     display: flex;
-    justify-content: center;
+    justify-items: center;
     margin: 50px 400px;
     border: 2px solid black;
     flex-direction: column;
     max-width: 400px;
-    height: 50vh;
 }
 
 h3{
-    background-color: aquamarine;
+    background-color: rgb(126, 213, 169);
     font-size: 2rem;
     padding-left: 120px;
+    color: white;
 }
+
 
 .eingabe input{
     display: flex;
     flex-direction: column;
     margin: 5px 5px;
+
 }
 
 form {
@@ -32,8 +34,13 @@ form {
 .send input{
     display: flex;
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(126, 213, 169);
     width: 380px;
+    color: white;
+}
+
+.send input:hover {
+    background-color: rgb(34, 184, 184);
 }
 
 
